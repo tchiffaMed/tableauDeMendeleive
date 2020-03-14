@@ -1,0 +1,634 @@
+
+    body{
+        font-size: 0.66vw;
+    }
+
+
+    .coin
+    {
+        text-align: justify;
+    }
+
+   .dimitri{
+       display: flex;
+       flex-flow:  column nowrap;
+       align-items: center;
+       justify-content: space-between;
+       border: 10px solide black;
+       padding-left: 20%;
+       padding-right: 20%;
+       margin-top: 0.6vw;
+       
+
+   }
+
+    .dimitri p {
+        width: 50vw;
+        font-size: 1.5vw;
+        background-image: linear-gradient(to right, #30CFD0 0%, #080e67bb 100%);
+        padding: 1.5px;
+        border-radius: 6px;
+    }
+
+
+    img {
+        
+        width: 7vw;
+        border-radius: 200px;
+        box-shadow:  #080e67e7 2px 2px 12px;
+    }
+
+
+.tablemendeleive {
+    display: grid; 
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serifs;
+    grid-template-columns: repeat(18, 4.4vw);
+    grid-template-rows: repeat(7, 4.5vw) 2vw repeat(2, 4.5vw);
+    gap: 0.3vw;
+    grid-template-areas:
+    
+        "ce1 . . . . . . . . . . . . . . . . ce2"
+        "ce3 ce4 . . . . . . . . . . ce5 ce6 ce7 ce8 ce9 ce10"
+        "ce11 ce12 . . . . . . . . . . ce13 ce14 ce15 ce16 ce17 ce18"
+        "ce19 ce20 ce21 ce22 ce23 ce24 ce25 ce26 ce27 ce28 ce29 ce30 ce31 ce32 ce33 ce34 ce35 ce36"
+        "ce37 ce38 ce39 ce40 ce41 ce42 ce43 ce44 ce45 ce46 ce47 ce48 ce49 ce50 ce51 ce52 ce53 ce54"
+        "ce55 ce56 ce71 ce72 ce73 ce74 ce75 ce76 ce77 ce78 ce79 ce80 ce81 ce82 ce83 ce84 ce85 ce86"
+        "ce87 ce88 ce103 ce104 ce105 ce106 ce107 ce108 ce109 ce110 ce111 ce112 ce113 ce114 ce115 ce116 ce117 ce118"
+        ". . . . . . . . . . . . . . . . . . "
+        ". . ce57 ce58 ce59 ce60 ce61 ce62 ce63 ce64 ce65 ce66 ce67 ce68 ce69 ce70 . ."
+        ". . ce89 ce90 ce91 ce92 ce93 ce94 ce95 ce96 ce97 ce98 ce99 ce100 ce101 ce102 . ."
+
+    
+    ;
+}
+
+
+.tablemendeleive div {
+    padding-top: 0.3vw;
+    
+}
+.cellule1 {
+    grid-area: ce1;
+    background-color: #9E95C7;
+}
+
+.cellule2 {
+    grid-area: ce2;
+    background-color: #84B8D7;
+}
+
+.cellule3 {
+    grid-area: ce3;
+    background-color: #A3DAC9;
+}
+.cellule4 {
+    grid-area: ce4;
+    background-color: #CDEBC8;
+}
+.cellule5 {
+    grid-area: ce5;
+    background-color: #F0F9C1;
+}
+
+.cellule6 {
+    grid-area: ce6;
+    background-color: #9E95C7;
+}
+.cellule7 {
+    grid-area: ce7;
+    background-color: #9E95C7;
+}
+.cellule8 {
+    grid-area: ce8;
+    background-color: #9E95C7;
+}
+
+.cellule9 {
+    grid-area: ce9;
+    background-color: #FEECB9;
+}
+
+.cellule10 {
+    grid-area: ce10;
+    background-color: #84B8D7
+}
+
+.cellule11 {
+    grid-area: ce11;
+    background-color: #A3DAC9;
+}
+
+.cellule12 {
+    grid-area: ce12;
+    background-color: #CDEBC8;
+}
+.cellule13 {
+    grid-area: ce13;
+    background-color: #fecea0;
+}
+.cellule14 {
+    grid-area: ce14;
+    background-color: #F0F9C1;
+}
+
+.cellule15 {
+    grid-area: ce15;
+    background-color: #9E95C7;
+}
+.cellule16 {
+    grid-area: ce16;
+    background-color: #9E95C7;
+}
+
+.cellule17 {
+    grid-area: ce17;
+    background-color: #FEECB9;
+}
+.cellule18 {
+    grid-area: ce18;
+    background-color: #84B8D7
+}
+.cellule19 {
+    grid-area: ce19;
+    background-color: #A3DAC9;
+}
+.cellule20 {
+    grid-area: ce20;
+    background-color: #CDEBC8;
+}
+.cellule21 {
+    grid-area: ce21;
+    background-color: #F8A78E;
+}
+.cellule22 {
+    grid-area: ce22;
+     background-color: #F8A78E;
+}
+.cellule23 {
+    grid-area: ce23;
+     background-color: #F8A78E;
+}
+.cellule24 {
+    grid-area: ce24;
+     background-color: #F8A78E;
+}
+.cellule25 {
+    grid-area: ce25;
+     background-color: #F8A78E;
+}
+.cellule26 {
+    grid-area: ce26;
+     background-color: #F8A78E;
+}
+.cellule27 {
+    grid-area: ce27;
+     background-color: #F8A78E;
+}
+.cellule28 {
+    grid-area: ce28;
+     background-color: #F8A78E;
+}
+.cellule29 {
+    grid-area: ce29;
+     background-color: #F8A78E;
+}
+.cellule30 {
+    grid-area: ce30;
+     background-color: #F8A78E;
+}
+.cellule31 {
+    grid-area: ce31;
+    background-color: #fecea0;
+}
+.cellule32 {
+    grid-area: ce32;
+    background-color: #F0F9C1;
+}
+
+.cellule33 {
+    grid-area: ce33;
+    background-color: #F0F9C1;
+}
+.cellule34 {
+    grid-area: ce34;
+    background-color: #9E95C7;
+}
+.cellule35 {
+    grid-area: ce35;
+    background-color: #FEECB9;
+}
+.cellule36 {
+    grid-area: ce36;
+    background-color: #84B8D7
+}
+
+.cellule37 {
+    grid-area: ce37;
+    background-color: #A3DAC9;
+}
+.cellule38 {
+    grid-area: ce38;
+    background-color: #CDEBC8;
+}
+.cellule39 {
+    grid-area: ce39;
+     background-color: #F8A78E;
+   
+}
+.cellule40 {
+    grid-area: ce40;
+     background-color: #F8A78E;
+}
+
+.cellule41 {
+    grid-area: ce41;
+     background-color: #F8A78E;
+}
+.cellule42 {
+    grid-area: ce42;
+     background-color: #F8A78E;
+}
+.cellule43 {
+    grid-area: ce43;
+    background-color: #F8A78E;
+}
+.cellule44 {
+    grid-area: ce44;
+     background-color: #F8A78E;
+}
+.cellule45 {
+    grid-area: ce45;
+     background-color: #F8A78E;
+}
+.cellule46 {
+    grid-area: ce46;
+     background-color: #F8A78E;
+}
+.cellule47 {
+    grid-area: ce47;
+     background-color: #F8A78E;
+}
+
+.cellule48 {
+    grid-area: ce48;
+     background-color: #F8A78E;
+}
+
+.cellule49 {
+    grid-area: ce49;
+    background-color: #fecea0;
+}
+
+.cellule50 {
+    grid-area: ce50;
+    background-color: #fecea0;
+}
+
+.cellule51 {
+    grid-area: ce51;
+     background-color: #F0F9C1;
+}
+
+.cellule52 {
+    grid-area: ce52;
+     background-color: #F0F9C1;
+}
+
+.cellule53 {
+    grid-area: ce53;
+    background-color: #FEECB9;
+}
+
+.cellule54 {
+    grid-area: ce54;
+    background-color: #84B8D7
+}
+
+.cellule55 {
+    grid-area: ce55;
+    background-color: #A3DAC9;
+}
+
+.cellule56{
+    grid-area: ce56;
+    background-color: #CDEBC8;
+}
+
+.cellule57 {
+    grid-area: ce57;
+    background-color: #E68B95;
+}
+
+.cellule58 {
+    grid-area: ce58;
+    background-color: #E68B95;
+}
+
+.cellule59 {
+    grid-area: ce59;
+    background-color: #E68B95;
+}
+
+.cellule60 {
+    grid-area: ce60;
+    background-color: #E68B95;
+}
+
+.cellule61 {
+    grid-area: ce61;
+    background-color: #E68B95;
+}
+
+.cellule62 {
+    grid-area: ce62;
+    background-color: #E68B95;
+}
+
+.cellule63 {
+    grid-area: ce63;
+    background-color: #E68B95;
+}
+
+.cellule64 {
+    grid-area: ce64;
+    background-color: #E68B95;
+}
+
+.cellule65 {
+    grid-area: ce65;
+    background-color: #E68B95;
+}
+
+.cellule66 {
+    grid-area: ce66;
+    background-color: #E68B95;
+}
+
+.cellule67 {
+    grid-area: ce67;
+    background-color: #E68B95;
+}
+
+.cellule68 {
+    grid-area: ce68;
+    background-color: #E68B95;
+}
+
+.cellule69 {
+    grid-area: ce69;
+    background-color: #E68B95;
+}
+
+.cellule70 {
+    grid-area: ce70;
+    background-color: #E68B95;
+}
+
+.cellule71 {
+    grid-area: ce71;
+     background-color: #F8A78E;
+}
+
+.cellule72 {
+    grid-area: ce72;
+     background-color: #F8A78E;
+}
+
+.cellule73 {
+    grid-area: ce73;
+     background-color: #F8A78E;
+}
+
+.cellule74 {
+    grid-area: ce74;
+     background-color: #F8A78E;
+}
+
+.cellule75 {
+    grid-area: ce75;
+     background-color: #F8A78E;
+}
+
+.cellule76 {
+    grid-area: ce76;
+     background-color: #F8A78E;
+}
+
+.cellule77 {
+    grid-area: ce77;
+     background-color: #F8A78E;
+}
+
+.cellule78 {
+    grid-area: ce78;
+     background-color: #F8A78E;
+}
+
+.cellule79 {
+    grid-area: ce79;
+     background-color: #F8A78E;
+}
+
+.cellule80 {
+    grid-area: ce80;
+     background-color: #F8A78E;
+}
+
+.cellule81 {
+   grid-area: ce81;
+   background-color: #fecea0;
+}
+
+.cellule82 {
+    grid-area: ce82;
+    background-color: #fecea0;
+}
+
+.cellule83 {
+    grid-area: ce83;
+    background-color: #fecea0;
+}
+
+.cellule84 {
+    grid-area: ce84;
+    background-color: #F0F9C1;
+}
+
+.cellule85 {
+    grid-area: ce85;
+    background-color: #FEECB9;
+}
+
+.cellule86 {
+    grid-area: ce86;
+    background-color: #84B8D7
+}
+
+.cellule87 {
+    grid-area: ce87;
+    background-color: #A3DAC9;
+}
+
+.cellule88 {
+    grid-area: ce88;
+    background-color: #CDEBC8;
+}
+
+.cellule89 {
+    grid-area: ce89;
+    background-color: #C5678E;
+}
+
+.cellule90 {
+    grid-area: ce90;
+    background-color: #C5678E;
+}
+
+.cellule91 {
+    grid-area: ce91;
+    background-color: #C5678E;
+}
+
+.cellule92 {
+    grid-area: ce92;
+    background-color: #C5678E;
+}
+
+.cellule93 {
+    grid-area: ce93;
+    background-color: #C5678E;
+}
+
+.cellule94 {
+    grid-area: ce94;
+    background-color: #C5678E;
+}
+
+.cellule95 {
+    grid-area: ce95;
+    background-color: #C5678E;
+}
+
+.cellule96 {
+    grid-area: ce96;
+    background-color: #C5678E;
+}
+
+.cellule97 {
+    grid-area: ce97;
+    background-color: #C5678E;
+}
+
+.cellule98 {
+    grid-area: ce98;
+    background-color: #C5678E;
+}
+
+.cellule99 {
+   grid-area: ce99;
+   background-color: #C5678E;
+}
+
+.cellule100 {
+    grid-area: ce100;
+    background-color: #C5678E;
+}
+
+.cellule101 {
+    grid-area: ce101;
+    background-color: #C5678E;
+}
+
+.cellule102 {
+    grid-area: ce102;
+    background-color: #C5678E;
+}
+
+.cellule103 {
+    grid-area: ce103;
+     background-color: #F8A78E;
+}
+
+.cellule104 {
+    grid-area: ce104;
+     background-color: #F8A78E;
+}
+
+.cellule105 {
+    grid-area: ce105;
+     background-color: #F8A78E;
+}
+
+.cellule106 {
+    grid-area: ce106;
+     background-color: #F8A78E;
+}
+
+.cellule107 {
+    grid-area: ce107;
+     background-color: #F8A78E;
+}
+
+.cellule108 {
+    grid-area: ce108;
+     background-color: #F8A78E;
+}
+
+.cellule109 {
+    grid-area: ce109;
+     background-color: #F8A78E;
+}
+
+.cellule110 {
+    grid-area: ce110;
+     background-color: #F8A78E;
+}
+
+.cellule111 {
+    grid-area: ce111;
+     background-color: #F8A78E;
+}
+
+.cellule112 {
+    grid-area: ce112;
+     background-color: #F8A78E;
+}
+
+.cellule113 {
+    grid-area: ce113;
+    background-color: #fecea0;
+}
+
+
+.cellule114 {
+    grid-area: ce114;
+    background-color: #fecea0;
+}
+
+.cellule115 {
+    grid-area: ce115;
+    background-color: #fecea0;
+}
+
+.cellule116 {
+    grid-area: ce116;
+    background-color: #fecea0;
+}
+
+.cellule117 {
+    grid-area: ce117;
+    background-color: #FEECB9;
+}
+
+.cellule118 {
+    grid-area: ce118;
+    background-color: #84B8D7
+}
+
+
+strong{
+    font-weight: 10px;
+    font-size: 2em;
+}
